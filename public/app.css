@@ -1,0 +1,112 @@
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+body{
+	font-family:'Open+Sans',sans-serif;
+	background: #ecf0f1;
+}
+
+header{
+	text-align: center;
+}
+
+header h1{
+	font-weight: normal;
+	font-size: 4em;
+}
+
+header h1 span{
+	font-weight: bold;
+}
+
+header h2{
+	font-size:2em;
+	font-weight: normal;
+}
+.form{
+	width:40%;
+	margin:50px auto 20px;
+}
+
+#todoInput{
+	width: 100%;
+	height: 60px;
+	background:none;
+	border:none;
+	border-bottom:1px solid black;
+	outline:none;
+	font:300 28px 'Ubuntu',sans-serif;
+	padding:20px;
+	color:#34495e;
+	text-align: center;
+}
+
+.task{
+	margin-left: 20%;
+	padding:0 20px;
+	font-size:1.5em;
+	transition: all .3s ease;
+}
+
+.task:hover{
+	background: rgba(0, 0, 0, .02);
+	cursor:pointer;
+}
+
+.task:hover span{
+	opacity: 1;
+}
+
+.list{
+	width:800px;
+	margin:0 auto;
+}
+
+
+tr{
+	text-align:center;
+	line-height: 2em;
+}
+table,th,td{
+	font-size:20px;
+	border:2pt solid black;
+}
+
+
+td:nth-child(n+2){
+	width:10%;
+}
+
+#delete{
+	font-size:2rem;
+	opacity:0.7;
+	font-weight: 700;
+	display: inline-block;
+	color: rgb(247, 7, 7);
+	transition: all 0.3s ease;
+	cursor: pointer;
+	
+}
+
+#delete:hover{
+	opacity:1.0;
+	transform:scale(1.5);
+}
+.done {
+	width:100%;
+	transform:scale(1.5);
+	opacity: 1.0 !important;
+	color:black !important;
+	font-weight: 900 !important;
+}
+#check{
+	color:#ecf0f1;
+	font-size:3rem;
+	display:inline-block;
+	transition:all 0.3s ease;
+	opacity:1.0;
+	cursor: pointer;
+}
+
+
+
