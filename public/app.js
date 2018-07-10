@@ -13,6 +13,10 @@ $(document).ready(function(){
 		}
 	});
 
+	$('#submit').click(function(event){
+		createTodo();
+	});
+
 	$('.list').on('click','#check',function(){
 		updateTodo($(this));
 	});
