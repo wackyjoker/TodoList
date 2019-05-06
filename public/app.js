@@ -8,6 +8,10 @@ $(document).ready(function(){
 	});	
 
 	$('#todoInput').keypress(function(event){
+		// if(event){
+		// 	var num = event.which;
+		// 	console.log("the number is "+num);
+		// }
 		if(event.which===13){
 			createTodo();
 		}

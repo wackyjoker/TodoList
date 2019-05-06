@@ -86,7 +86,9 @@ header h2{
 	width:800px;
 	margin:0 auto;
 }
-
+th{
+	background-color: #a3a3a3
+}
 
 tr{
 	text-align:center;

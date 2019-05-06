@@ -15,10 +15,10 @@ var todoRoutes= require("./routes/todo");
 
 	app.use("/api/todo",todoRoutes);
 
-	app.listen(3000,function(err){
+	app.listen(3002,function(err){
 		if(err){
 			console.log(err);
 		} else {
-			console.log("server started at port 3000");
+			console.log("server started at port 3002");
 		}
 	});

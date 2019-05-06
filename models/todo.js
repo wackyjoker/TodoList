@@ -10,7 +10,7 @@ var todoSchema = new mongoose.Schema({
 		type:Boolean,
 		default:false
 	},
-	create_data:{
+	create_date:{
 		type:Date,
 		default:Date.now
 	}
